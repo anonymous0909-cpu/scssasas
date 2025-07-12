@@ -485,7 +485,7 @@ height: 900px;
   padding-bottom: 20px;
 }
 .discover-button {
-  background-color:  white;
+  background-color:  #e7a253;
   padding: 20px 30px;
   border-radius: 30px;
   border: none;
@@ -496,7 +496,7 @@ height: 900px;
   font-family: outfit;
 }
 .discover-button:hover {
-  background-color: #726310;
+  background-color: white;
   transition: 0.5s;
   cursor: pointer;
 }
@@ -541,7 +541,7 @@ height: 900px;
 .d-para-o{
     font-family: outfit; 
     font-size: 14px; 
-    color: rgb(116, 112, 112);
+    color: white;
      padding-top: 20px; 
      padding-bottom: 30px;
 }
@@ -1132,7 +1132,7 @@ hr {
      .follow-image {
   display: flex;
   justify-content: center;
-  background-color: #fff8eb;
+ 
   gap: 20px;
   height: 50vh;
   padding-top: 30px;
@@ -1182,6 +1182,11 @@ hr {
 }
 .follow-para1{
   font-size: 11px;
+}
+}
+@media (max-width:400px){
+  .follow-image{
+  height: 50vh;
 }
 }
 @media (max-width:385px){
@@ -1246,7 +1251,7 @@ hr {
 @media (max-width:1440px){
 .d-para-o{
     font-size: 11px;
-    color: #292828;
+    
   }
   }
 }
@@ -1272,7 +1277,7 @@ hr {
   }
   .d-para-o{
     font-size: 9px;
-    color: #292828;
+    
   }
 }
 @media (max-width:1200px) {
@@ -1349,7 +1354,7 @@ hr {
   }
   .d-para-o{
     font-size: 7px;
-    color: #292828;
+    
   }
   .discover-button{
          padding: 10px 20px;
@@ -1624,6 +1629,7 @@ font-size: 15px;
   }
 }
 
+
 /* perfect jewellery responsive ness */
 
 @media (max-width:985px){
@@ -1688,43 +1694,37 @@ font-size: 15px;
 
 /* shop by categories responsiveness */
 
-@media (max-width:920px){
-  .shop-text h1{
-    font-size: 40px;
-  }
-}
-@media (max-width:550px){
-  .s-img{
-    
-  height: 200px;
-  border-radius: 180px;
-}
-  
-}
-@media (max-width:845px){
+@media (max-width:1020px) {
   .shop-categories{
     height: 80vh;
   }
 }
-@media (max-width:450px){
-  
-    .s-img{
-    
-  height: 180px;
-  border-radius: 180px;
-}
-.shop-images p{
-  margin-top: 40px;
-}
-}
-@media (max-width:403px){
+@media (max-width:592px) {
   .shop-categories{
-    height: 110vh;
+    height: 105vh;
   }
-   .shop-text h1{
-    font-size: 30px;
+  .shop-text{
+    font-size: 20px;
   }
-
+}
+@media (max-width:540px) {
+  .shop-categories{
+    height: 120vh;
+  }
+ 
+}
+@media (max-width:377px) {
+  .shop-categories{
+    height: 165vh;
+  }
+  .shop-text{
+    font-size: 20px;
+  }
+}
+@media (max-width:375px) {
+   .shop-categories{
+    height: 200vh;
+  }
 }
 
 /* copyright footer responsiveness */
@@ -1832,40 +1832,15 @@ padding-top: 30px;
 
 
 /* height adjust */
-@media (max-height:667px){
-  .shop-categories{
-    height: 130vh;
-  }
- .follow-image{
-  height: 55vh;
- }
-}
-@media (max-height:740px){
-    .shop-categories{
-    height: 115vh;
-  }
-  .follow-image{
-  height: 50vh;
- }
-}
+
+
 @media (max-height:600px){
   .follow-image{
     height: 80vh;
   }
 }
-@media (max-height:700px){
- .shop-categories{
-    height: 120vh;
-  }
-}
-@media (max-height:750px){
- .shop-categories{
-    height: 130vh;
-  }
-  .follow-image{
-    height: 60vh;
-  }
-}
+
+
 /* head text responsiveness */
 @media (max-width:1735px) {
   .texth1 h1{
